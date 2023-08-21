@@ -2,7 +2,7 @@ import * as S from './styles'
 import { ComponentType, InputHTMLAttributes } from 'react'
 
 interface InputProps<T = InputHTMLAttributes<HTMLInputElement>> {
-  icon: ComponentType<{ size: number }>
+  icon?: ComponentType<{ size: number }>
   restProps?: T
 }
 
