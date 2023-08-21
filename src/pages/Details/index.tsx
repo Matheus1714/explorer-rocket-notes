@@ -4,7 +4,7 @@ import { Button } from '../../components/Button'
 export function Details() {
   return (
     <S.Container>
-      <Button title="Entrar" />
+      <Button title="Entrar" loading />
     </S.Container>
   )
 }
