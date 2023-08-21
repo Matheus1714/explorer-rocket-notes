@@ -2,7 +2,7 @@ import * as S from './styles'
 
 interface ButtonProps {
   title: string
-  loading: boolean
+  loading?: boolean
 }
 
 export function Button({ title, loading = false, ...rest }: ButtonProps) {

@@ -1,0 +1,14 @@
+import styled from 'styled-components'
+
+interface ContainerProps {
+  $isactive: string
+}
+
+export const Container = styled.button<ContainerProps>`
+  background: none;
+  border: none;
+
+  font-size: 16px;
+  color: ${({ theme, $isactive }) =>
+    $isactive === 'true' ? theme.COLORS.ORANGE : theme.COLORS.GRAY_100};
+`
