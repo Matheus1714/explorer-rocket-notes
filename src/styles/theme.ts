@@ -1,4 +1,4 @@
-export default {
+export const defaultTheme = {
   COLORS: {
     BACKGROUND_900: '#232129',
     BACKGROUND_800: '#312E38',
